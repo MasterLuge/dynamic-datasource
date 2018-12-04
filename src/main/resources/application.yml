@@ -1,0 +1,38 @@
+#开启mybatis的空值（或null）的映射map，为false时，若查询字段值为null,字段名不会映射到结果map中
+server:
+  port: 8989
+mybatis:
+  configuration:
+    call-setters-on-nulls: true
+spring:
+  datasource:
+    dynamic:
+      datasource:
+        dgjycy:
+          username: test_user1
+          password: test_user1
+          url: jdbc:oracle:thin:@10.145.196.83:1521:orcl
+          driver-class-name: oracle.jdbc.driver.OracleDriver
+        cajy:
+          username: cajy_shxt
+          password: cajy_shxt
+          url: jdbc:oracle:thin:@localhost:1521:orcl
+          driver-class-name: oracle.jdbc.driver.OracleDriver
+  freemarker:
+    allow-request-override: false
+    allow-session-override: false
+    cache: true
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: true
+    prefer-file-system-access: true
+    suffix: .ftl
+    template-loader-path: classpath:/templates/
+logging:
+  level:
+    com.buss: debug
+
