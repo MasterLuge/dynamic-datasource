@@ -23,7 +23,7 @@
     <thead><tr>
         <th lay-data="{field:'XH', width:100}">序号</th>
         <#list resultMapList[0]?keys as key>
-            <th nowrap lay-data="{field:'${key}',sort:true}">${key}_注释</th>
+            <th nowrap lay-data="{field:'${key}',sort:true}">${key}</th>
         </#list>
     </tr></thead>
     <tbody>

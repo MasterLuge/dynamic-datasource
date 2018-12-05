@@ -84,6 +84,12 @@
 									<cite>就业创业</cite>
 								</a>
 							</li>
+                            <li>
+                                <a _href="/model/search/list">
+                                    <i class="iconfont">&#xe6a7;</i>
+                                    <cite>常用查询模块</cite>
+                                </a>
+                            </li>
 							<!--
 							<li>
 								<a _href="">
@@ -275,7 +281,6 @@
 			<div class="layui-tab tab" lay-filter="wenav_tab" id="WeTabTip" lay-allowclose="true">
 				<ul class="layui-tab-title" id="tabName">
                     <li>查询列表</li>
-					<#--<li>查询列表</li>-->
 				</ul>
 				<div class="layui-tab-content">
 					<div class="layui-tab-item layui-show">
